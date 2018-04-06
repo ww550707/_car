@@ -1,8 +1,8 @@
-import PRi.GPIO
+import RPi.GPIO
 import time
 
-RPi.GPIO.setmode(RPI.GPIO.BCM)
-RPi.GPIO.setup(14,RPI.GPIO.OUT)
+RPi.GPIO.setmode(RPi.GPIO.BCM)
+RPi.GPIO.setup(14,RPi.GPIO.OUT)
 
 print("start")
 
