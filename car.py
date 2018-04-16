@@ -24,7 +24,7 @@ def checkdist():
 
 try:
     while True:
-        print 'Distance:%0.2f m' % checkdist()
+        print ('Distance:%0.2f m' % checkdist())
         time.sleep(3)
 except KeyboardInterrupt:
     GPIO.cleanup()
@@ -62,8 +62,6 @@ while(1):
         RPi.GPIO.output(D_3,True)
         RPi.GPIO.output(D_4,True)
 
-    '''
-    '''
     get = GPIO.input(14)
     if (get == 1 & flag == 0):
         print("get")
